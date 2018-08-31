@@ -1,0 +1,13 @@
+models:
+	user:
+		id
+		name
+		email
+	photo:
+		id
+		link
+		userid (foreign key)
+	favourate:
+		id
+		user id(fk)
+		photo id(fk)
